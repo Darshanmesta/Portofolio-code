@@ -1,0 +1,415 @@
+#icon1:hover{
+    color: tomato;
+}
+
+#b1:hover{
+    color: orange;
+}
+
+
+#nav1{
+
+
+    border-top: none;
+    border-bottom: none;
+    /*background: linear-gradient(to right, #000000, #434343);*/
+    /*background: #12947f;*/
+    /*background: #1f4068;*/
+    /*background: #00909e;*/
+    /*background: #06623b;*/
+    /*background: #442727;*/
+    /*background: #2b580c;*/
+    /*background: #235952;*/
+    /*background: #216353;*/
+    background: #464159;
+}
+
+
+#navul a:hover{
+    background-color: beige;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.sec1{
+
+
+    height: auto;
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgb(67,67,67)),url('https://i.pinimg.com/originals/17/cd/41/17cd4124e87c4b30a5fecf2605d86b6b.png');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec1 p{
+    text-align: center;
+
+    font-weight: bolder;
+    font-size: 2.2rem;
+
+
+}
+
+.p1{
+    margin-top: -130px;
+
+}
+
+
+
+.sp1{
+    font-size: 3rem;
+    color: crimson;
+
+}
+
+.p-div{
+    padding: 220px 0px;
+
+}
+
+#sp{
+
+    font-size: 3rem;
+}
+
+
+.typed-cursor{
+    color: #fff;
+}
+
+
+
+
+
+
+/*Section 2 code starts here */
+.sec2{
+    width: 50%;
+    margin: auto;
+    border: 1px solid red;
+    margin-top: 20px;
+
+}
+
+.about{
+  margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.abp{
+    font-size: 3.5rem;
+    text-decoration: dashed;
+
+}
+
+.well-inner{
+    margin-left: 50px;
+}
+
+
+.abt-txt{
+  text-align: justify;
+    line-height: 3.2rem;
+}
+
+/*Section 2 Code Ends Up Here*/
+
+
+
+/*section 3 code starts here */
+#hireme{
+  background-color:rgb(67,67,67) ;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hirediv{
+
+   padding: 20px 0px;
+}
+
+#downcv{
+    margin:5px 0px;
+}
+
+#downcv:hover{
+    background-color: transparent;
+    color: cornsilk;
+}
+
+/*Section 3 Code Ends up Here*/
+
+
+
+/*Section 4 Code Starts Here*/
+
+#myCar{
+    margin: auto;
+    width: 600px;
+    height: 350px;
+
+
+}
+
+.car-sec{
+    margin-top: 20px;
+
+
+}
+
+
+@media (min-width:0px) and (max-width:768px){
+    #mycar{
+        margin: auto;
+        width: 60%;
+        height:60%
+    }
+
+    .car-img{
+        width: 60%;
+        height:60%
+    }
+}
+/*Section 4 code ends here*/
+
+/* 
+Project Section Code Starts Here*/
+
+
+
+.f1:hover{
+    /* opacity: 0.3; */
+    transition: all ease-in 3s;
+    cursor:pointer;
+  
+
+    }
+
+.f1:hover .desc{
+    visibility: visible;
+    scale:(2);
+    z-index: 1;
+    background: border-box;
+    background-color: violet;
+    
+    cursor: crosshair;
+}
+
+.f1:hover .slide-div1{
+    visibility: visible;
+    width: 100%;
+   height: 500px;
+   cursor: crosshair;
+
+}
+
+.exp-div1{
+    transition: all 1.5s ease-in;
+}
+
+.f1:hover .exp-div1{
+ transform: scale(1.1);
+}
+
+.f1{
+    position: relative; 
+    
+}
+
+
+.desc{
+    position: absolute;
+    visibility: hidden;
+    top: 100px;
+    left:150px;
+    color:#000;
+  
+    padding: 5px;
+    
+
+    transition: all 1s linear ;
+ 
+   
+    
+}
+
+
+.f2{
+    margin-top: 15px;
+    position: relative;
+}
+
+#projects hr{
+    border-bottom: 2px dotted black;
+    border-top: none;
+}
+
+
+.f2:hover .slide-div {
+    visibility: visible;
+     width: 100%;
+    height: 500px;
+    cursor: crosshair;
+
+
+}
+
+.exp-div{
+    transition: 2s;
+}
+
+.f2:hover .exp-div{
+    transform: scale(1.1);
+}
+
+.slide-div{
+    position: absolute;
+    /* top: 0;
+    left: 20; */
+    width: 0%;
+    height: 500px;
+   
+  
+    visibility: hidden;
+    opacity: 0.8;
+    background: #fff;
+    transition: all linear 1s;
+
+}
+
+.slide-div1{
+    position: absolute;
+    /* top: 0;
+    left: 20; */
+    width: 0%;
+    height: 500px;
+   
+  
+    visibility: hidden;
+    opacity: 0.8;
+    background: #fff;
+    transition: all linear 1s;
+
+}
+
+#pro-3 , #pro-4 , #pro5 {
+   font-size: 1.5rem;
+   color:snow;
+   font-weight: bolder;
+}
+
+
+
+.detail-div{
+    background-color:darkslategrey;
+    color: snow;
+    font-weight: bolder;
+
+}
+
+.detail-div1{
+    background-color:darkslategrey;
+    color: snow;
+    font-weight: bolder;
+
+}
+
+.address-info{
+    margin: 25px 0px;
+}
+
+/*Project Section Code Ends Here*/
+
+
+
+/*Address Section Code Starts Here*/
+.add1 .p1{
+    margin-top: 5px;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.add1 .p2{
+    margin-top: 5px;
+    font-size: 2rem;
+
+}
+
+.add2 .p3{
+    margin-top: 5px;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.add2 .p4{
+    margin-top: 5px;
+    font-size: 2rem;
+
+}
+
+.add3 .p5{
+    margin-top: 5px;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.add3 .p6{
+    margin-top: 5px;
+    font-size: 2rem;
+
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .add1 .p1 , .add2 .p3 , .add3 .p5{
+        font-size: 1.5rem;
+
+    }
+
+    .add1 .p2 , .add2 .p4 , .add3 .p6{
+        font-size: 1.5rem;
+
+    }
+}   
+/* Address Section Code Ends Here */
+
+
+
+
+/*Social Media Code Starts Here*/
+
+
+.soc-al{
+  
+    margin-top: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.soc-icon{
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

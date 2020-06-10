@@ -7,13 +7,13 @@
         <link rel="stylesheet" href="https://bootswatch.com/3/cosmo/bootstrap.min.css" type="text/css"/>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-        <link rel="stylesheet" href="./styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,300&family=Dancing+Script:wght@400;700&family=Montserrat&family=Source+Code+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,300&family=Dancing+Script:wght@400;700&family=Montserrat&family=Source+Code+Pro:ital,wght@1,500&display=swap&family=Poppins:ital,wght@1,300&display=swap&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
 
-        <script src="./typed.js"></script>
+        <script src="/typed.js"></script>
 
     </head>
     <body>
@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default" id="nav1" >
         <div class="container">
            <div class="navbar-header">
-               <a href="#" class="navbar-brand"><i class="fas fa-code fa-2x" id="icon1"></i><em id="b1">Darshan</em></a>
+               <a href="#" class="navbar-brand"><i class="fab fa-css3 fa-2x" id="icon1"></i></i><em id="b1"></em></a>
                <button class="navbar-toggle" data-toggle="collapse" data-target="#myDiv">
                    <span class="icon-bar"></span>
                    <span class="icon-bar"></span>
@@ -32,6 +32,7 @@
             <div class="navbar-collapse collapse" id="myDiv">
                 <ul class="nav navbar-nav navbar-right" id="navul">
                     <li><a href="#"><i class="fas fa-home fa-2x"></i><em>Home</em></a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram fa-2x"></i><em>Projects</em></a></li>
                     <li><a href="#about"><i class="far fa-address-card fa-2x"></i><em>About</em></a></li>
                     <li><a href="#"><i class="fas fa-envelope-open fa-2x"></i><em>ContactUs</em></a></li>
                 </ul>
@@ -43,7 +44,7 @@
 
     <section class="sec1">
         <div class="p-div">
-            <p  class="p1"><span style="color: cornsilk">Hello, I Am </span><span style="  font-family: 'Montserrat', sans-serif, sans-serif; color: snow">Darshan </span> </p>
+            <p  class="p1"><span style="color:snow">Hello, I Am </span><span style="  font-family: 'Montserrat', sans-serif, sans-serif; color: snow">Darshan </span> </p>
             <p class="p2" ><span id="sp" style="color: cornsilk">I am a</span>   <span class="sp1" style="font-family: 'Montserrat', sans-serif, sans-serif; color: snow"> </span></p>
         </div>
 
@@ -56,8 +57,8 @@
     <section id="about" class="about">
      <div class="well well-lg" style="background-color: whitesmoke;margin: auto">
          <div class="well-inner">
-             <h3 class="abp" style="font-family: 'Dancing Script', cursive;font-weight: bolder">About Me</h3>
-             <p class="abt-txt" style=" font-family: 'DM Mono', monospace; font-size: 1.8rem">Hello My Name is Darshan.  I Worked as a QA
+             <h3 class="abp" style="font-family: 'Dancing Script', cursive;font-weight: bolder">My Story</h3>
+             <p class="abt-txt" style=" font-family: 'Poppins', sans-serif; font-size: 1.8rem">Hello My Name is Darshan.  I Worked as a QA
               in the Software Industry for about 2 Years for now . I Wanted a Career Switch as a Developer .
                  I Searched Enough about Front-End , Back-End and Full-Stack Web-Development and Finally
 
@@ -81,9 +82,9 @@
 
     <section id="hireme">
      <div class="hirediv">
-         <p style="font-family: 'Source Code Pro', monospace;color: whitesmoke; font-weight: bold; font-size: 2rem">Want to Hire Me? </p>
-         <p style="font-family: 'Source Code Pro', monospace;color: whitesmoke; font-weight: bold; font-size: 2rem">Kindly Download My CV From Here</p>
-         <button class="btn btn-md btn-primary" id="downcv">Download</button>
+         <p style="font-family: 'Source Code Pro', monospace;color: whitesmoke; font-weight: bold; font-size: 2rem">Want to Give Me an Opportunity? </p>
+         <p style="font-family: 'Source Code Pro', monospace;color: whitesmoke; font-weight: bold; font-size: 2rem">Kindly Find My CV  Here</p>
+         <a href="/CV_Final (1).pdf" class="btn btn-md btn-primary" id="downcv" download>Download</a>
      </div>
     </section>
 
@@ -139,8 +140,148 @@
 
  </section>
 
+ <section id="projects">
+
+     <div class="row">
+        <h3 class="text-center" style="font-family: 'Dancing Script', cursive;"><strong><em>My Project Works.</em></strong></h3>
+     </div>
+
+     <div class="f1">
+         <div class="exp-div1">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    
+                
+                      <iframe  src="  https://covidreactnode.herokuapp.com" style="width:95%; height: 500px; margin: auto;"> </iframe>
+      
+                      
+                
+                   
+                </div>
+    
+                <div class="slide-div1">
+                    <div class="detail-div1"  style="margin: auto; width: 40%;">
+                        <details>
+                            <summary class="text-center">Details</summary>
+    
+                            <p id="pro-1" style="font-weight: bolder;" class="text-center"><strong><em>Project#1</em></strong></p>
+                            <p id="pro-2" style="font-weight: bolder;" class="text-center"><strong><em>Coronavirus-Tracker</em></strong></p>
+                            <p id="pro-21" style="font-weight: bolder;" class="text-center"><a target="_blank" href="
+                                https://covidreactnode.herokuapp.com/" style="color: snow;"><strong><em>Please Click this line View the Content.</em></strong></a></p>
+                        </details>
+                    </div>
+                  
+                </div>
+            </div>
+         </div>
+    
+
+        <!-- <div class="desc">
+               
+            <details>
+
+                <summary>Details</summary>
+                <h4 id="pro-1" style="font-weight: bolder;"><em>Project#1</em></h4>
+                <h5 id="pro-2" style="font-weight: bolder;"><em>Coronavirus-Tracker</em></h5>
+            </details>
+         
+            
+           
+        
+        </div> -->
+        
+     </div>
+      <hr>
+
+     <div class="f2">
+         <div class="exp-div">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    
+                
+                      <iframe class="ifr2" src="https://eager-blackwell-1c0e4d.netlify.app/" style="width:95%; height: 500px; margin: auto;"></iframe>
+      
+                    
+                   
+                </div>
+    
+    
+                <div class="slide-div">
+                    <div class="detail-div"  style="margin: auto; width: 40%;">
+                        <details>
+                            <summary class="text-center">Details</summary>
+    
+                            <p id="pro-3" style="font-weight: bolder;" class="text-center"><strong><em>Project#2</em></strong></p>
+                            <p id="pro-4" style="font-weight: bolder;" class="text-center"><strong><em>Ecommerce-Project</em></strong></p>
+                            <p id="pro-5" style="font-weight: bolder;" class="text-center"><a target="_blank" href="https://eager-blackwell-1c0e4d.netlify.app/" style="color: snow;"><strong><em>Please Click this line View the Content.</em></strong></a></p>
+                           
+                        </details>
+                    </div>
+                  
+                </div>
+                
+     
+            </div>
+         </div>
+
+       
 
 
+     </div>
+     <hr>
+   
+
+  
+ <section class="address-info">
+ <div class="container">
+     <div class="row">
+         <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12 text-center">
+             <div class="add1">
+                <span><i class="fas fa-map-marker-alt fa-2x"></i></span>
+                <p class="text-center p1">ADDRESS</p>
+                <p class="text-center p2"><em>Rajajinagar Bangalore</em></p>
+             </div>
+             
+
+         </div>
+
+         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 text-center">
+             <div class="add2">
+                 <span><i class="fas fa-phone-alt fa-2x"></i></span>
+                 <p class="text-center p3">PHONE</p>
+                 <p class="text-center p4"><em>+91 8861772715</em></p>
+             </div>
+         </div>
+
+         
+         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 text-center">
+            <div class="add3">
+                <span><i class="fas fa-envelope-open fa-2x"></i></span>
+                <p class="text-center p5">EMAIL</p>
+                <p class="text-center p6"><em>darshanmesta33@gmail.com</em></p>
+            </div>
+        </div>
+     </div>
+ </div>
+
+
+     
+ </section>
+
+
+<section class="soc-med">
+    <div class="container">
+        
+            <ul class="soc-al">
+                <li><a href="https://www.facebook.com/darshanmesta33" target="_blank"  class="soc-icon"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li><a href="https://twitter.com/darshanmesta2" target="_blank" class="soc-icon"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/darshan-m-5a6689b4" target="_blank" class="soc-icon"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" class="soc-icon"><i class="fab fa-instagram fa-2x"></i></a></li>
+            </ul>
+        
+    </div>
+
+</section>
 
 
 
@@ -169,6 +310,8 @@
 
      })
 
+
+  
     </script>
 
 
